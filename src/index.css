@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #e9e9e9;
+}
